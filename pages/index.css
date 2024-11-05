@@ -127,7 +127,7 @@
   max-width: 438px;
 }
 
-.recipes__videos {
+.recipes__iframe {
   display: flex;
   justify-content: center;
   gap: 40px;
