@@ -10,18 +10,104 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/se_project_2_files/logo_coffeeshop_dark.svg"
+            alt="Coffeshop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="" class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Speciality Coffee</span> in the
+          Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/se_project_2_files/inside_coffee_shop.png"
+          alt="Coffee Shop Illustration"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday-Friday (10:00-19:00)</p>
+            <p class="header__paragraph">Saturday-Sunday (11:00-18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-      <section class="recipes"></section>
-      <section class="reservation"></section>
-      <section class="menu"></section>
-      <section class="about"></section>
+        <section class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <ul class="recipes__videos">
+            <li>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=bmtaq9WZJLoPgccx"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress Recipe</span> <span>~5 min</span>
+              </p>
+            </li>
+            <li>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=z3rtViQu7BAlv2II"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>French Press Recipe</span> <span>~15 min</span>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
