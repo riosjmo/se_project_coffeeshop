@@ -4,10 +4,11 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  background-image: url(../images/se_project_2_files/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-size: cover;
   position: relative;
   background-position: center;
+  z-index: 1;
 }
 
 .header__image {
@@ -16,7 +17,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .header__title {

@@ -2,7 +2,7 @@
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
-  background-image: url(../images/se_project_2_files/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-position: center;
   background-size: cover;
 }
@@ -37,6 +37,7 @@
   border: none;
   width: 480px;
   height: 273px;
+  margin-bottom: 24px;
 }
 
 .recipes__video-caption {
