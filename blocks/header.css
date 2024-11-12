@@ -7,6 +7,7 @@
   background-image: url(../images/se_project_2_files/background_header.svg);
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 .header__image {
@@ -15,6 +16,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -30,13 +32,9 @@
 .header__span-accent {
   color: #3f96f3;
   display: block;
-  font-family: "Inter", "Arial", sans-serif;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #3f96f3;
 }
 
 .header__description {

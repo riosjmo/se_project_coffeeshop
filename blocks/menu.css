@@ -5,6 +5,7 @@
   align-items: center;
   background-image: url(../images/se_project_2_files/background_menu.svg);
   background-size: cover;
+  background-position: center;
 }
 
 .menu__title {
